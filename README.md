@@ -1,25 +1,24 @@
-# web-app-development
-Basic bootstrap for developing a web app with the power of Vite.
+# WebApp Development
+Basic bootstrap for developing a web app with the power of Svelte and Vite.
 
 # Degit
 Copy this repository file structure to your local development environment.
 `degit https://github.com/arjandemeijer/web-app-development.git`
 
 # Aim of Repository
-Each Svelte page gets its own dedicated js + css files. The css file is only generated when necessary for the page. For overall styling, use the scss files that compile to a dedicated css file. The styling css file can then be used by the majority of files.
-
+Svelte pages compile to own dedicated js and css files. Project files are generated to general `{theme}` files that are reused in the project.
 ```
-# Overall Theme CSS
+# Project css
 dist/assets/css/theme.css
 
-# Overall Base javascript.
-dist/assets/js/index.js 
+# Project js
+dist/assets/js/theme.js 
 
-# Page 1
-dist/assets/pages/css/page1.css
-dist/assets/pages/js/page1.js
+# Component 1
+dist/assets/pages/css/app-component-1.css
+dist/assets/pages/js/app-component-1.js
 
-# Page 2
-dist/assets/pages/css/page2.css
-dist/assets/pages/js/page2.js
+# Component 2
+dist/assets/pages/css/app-component-2.css
+dist/assets/pages/js/app-component-2.js
 ```

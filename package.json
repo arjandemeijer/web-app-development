@@ -16,5 +16,8 @@
     "vite": "^5.0.4"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "svelte-component-1": "file:../../../../documents/projects/websites/svc1"
+  }
 }
