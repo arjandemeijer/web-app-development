@@ -1,4 +1,4 @@
-import Upload from './Comps/Upload.svelte';
+import Upload from './Pages/Upload.svelte';
 
 const uploadApp = new Upload({
   target: document.getElementById('upload-app'),
